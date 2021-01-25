@@ -31,7 +31,7 @@ const spanStyle = {
         fontSize: '15px'
 
 }
-const Section = () => {
+const Section = () => (
     <div>
         <div  sx={section_2_content}>
 INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.
@@ -67,6 +67,7 @@ INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CU
                 </div>
             </div>
     </div>
-}
+
+)
 
 export default Section

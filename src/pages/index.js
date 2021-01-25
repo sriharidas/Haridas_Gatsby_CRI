@@ -9,6 +9,8 @@ import Head from './../components/header'
 import Section from './../components/section'
 import image_3 from "../images/3.png"
 import Helmet from "react-helmet"
+import './../components/style.css'
+
 const header = {
     width: "100%",
     height: ["120px","120px","150px"]
@@ -21,27 +23,27 @@ const headerImg = {
 }
 const section1 = {
     width:['95%','90%','100%'],
-    height:['auto','auto','100vh'],
+    height:['auto','auto','115vh'],
     display:'flex',
     flexDirection: ['column','column','row'],
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
     textAlign:'justify',
-    margin: 'auto'
+    margin: '10px auto'
 }
 const col1 = {
-    width:['100%','100%','40%'],
+    width:['100%','100%','80%'],
     height: '100%'
 }
 const col2 = {
-    width:['100%','100%','45%'],
+    width:['100%','100%','98%'],
     height: '100%',
     display:'flex',
     justifyContent: 'space-around',
     alignContent: 'space-around',
     alignItems: 'center',
-    margin: 'auto'
+    margin: '10px auto'
 }
 const img_1 = {
     height: ['auto','auto','100%'],
@@ -58,7 +60,7 @@ const img_2 = {
 const section_2 = {
     width:['95%','90%','100%'],
     height: 'auto',
-    margin: 'auto',
+    margin: '10px auto',
     paddingTop:['20px','20px',null]
 }
 const section_2_content = {
@@ -122,7 +124,7 @@ const footerStyle =  {
     color:'#fff'
 }
 const smLink = {
-    height:['180px','180px','80px'],
+    height:['150px','150px','80px'],
     width: 'fit-content',
     display: 'flex',
     flexDirection: 'row',
@@ -136,7 +138,7 @@ const Header = () => (
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
              <script src="https://kit.fontawesome.com/yourcode.js"></script>
         </Helmet>
-        <div sx={{ padding:'0px', margin: '0px',textAlign:'justify', lineHeight:['1.35','1.35','1.55'], fontSize: ['14px', '17px', '19px'] }}>
+        <div sx={{ width:'100%',padding:'0px', margin: '0px',textAlign:'justify', lineHeight:['1.35','1.35','1.55'], fontSize: ['14px', '17px', '19px'] }}>
         <div class="header" sx={header}>
             <img src={logo} sx={headerImg}/>
         </div>
